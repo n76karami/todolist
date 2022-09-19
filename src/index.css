@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:  #8bbe0a;
+    /* border: 1px solid black; */
+    padding: 40px;
+}
+#h{
+    margin: 20px;
+    width: 40%;
+    text-align: center;
+    font-size:larger;
+    color: aliceblue;
+    /* border: 1px solid black; */
+}
+#text{
+    /* border: 1px solid black; */
+    margin: 10px;
+    display: flex;
+    width: 85%;
+}
+#text input{
+    border: none;
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+#add{
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 20px;
+    background-color: #1ca04f;
+    cursor: pointer;
+    transition: 0.3s;
+    color: aliceblue;
+    font-weight: bold;
+}
+#add:hover{
+    background-color:#38acea ;
+}
+#list1{
+    margin: 0;
+    padding: 0;
+    width: 45%;
+    /* border: 1px solid black; */
+    float: left;
+}
+#buttons{
+    width: 10%;
+    /* border: 1px solid black; */
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+#list2{
+    margin: 0;
+    padding: 0;
+    width: 45%;
+    /* border: 1px solid black; */
+    float: left;
+}
+ul li {
+    cursor: pointer;
+    padding: 16px 8px 16px 60px;
+    list-style-type: none;
+    background: #eee;   
+    font-size: 20px;
+}
+ul li:hover {
+    background: rgb(107, 103, 103);
+}
+ul{
+    padding-top: 10px;
+}
+.b{
+    margin: 30px;
+    width: 55%;
+    height: 60px;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #058234;
+    color: #eee;
+}
+.b:hover{
+    background-color: #89d1a5;
+    color:#058234;
+}
+.select{
+    cursor: pointer;
+    background-color: rgb(60, 29, 29);
+    color: #eee;
+}
+
+
